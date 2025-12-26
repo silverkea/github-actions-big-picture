@@ -4,7 +4,7 @@ on: push
 
 jobs: 
   build:
-    runs-on: ubuntu-latests
+    runs-on: ubuntu-latest
     steps:
       - name: checkout repo
         uses: actions/checkou@v4
